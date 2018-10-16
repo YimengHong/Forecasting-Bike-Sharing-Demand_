@@ -5,8 +5,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-train = pd.read_csv('C:/Users/yimen/OneDrive/Documents/Python Scripts/input/train.csv')
-test = pd.read_csv('C:/Users/yimen/OneDrive/Documents/Python Scripts/input/test.csv')
+train = pd.read_csv('.../input/train.csv')
+test = pd.read_csv('.../input/test.csv')
 
 from scipy.stats import skew
 from scipy.stats import norm
